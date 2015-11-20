@@ -10,7 +10,7 @@
  */
 class Pronamic_WP_Pay_Gateways_ING_IDealAdvancedV3_Config extends Pronamic_WP_Pay_Gateways_IDealAdvancedV3_Config {
 	public function get_payment_server_url() {
-		return 'https://ideal.secure-ing.com/ideal/iDeal';
+		return 'https://ideal.secure-ing.com/ideal/iDEALv3';
 	}
 
 	public function get_certificates() {
