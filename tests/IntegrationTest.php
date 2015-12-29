@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Title: Rabobank - iDEAL Professional integration test
+ * Title: ING - iDEAL Advanced - v3 - Integration test
  * Description:
  * Copyright: Copyright (c) 2005 - 2015
  * Company: Pronamic

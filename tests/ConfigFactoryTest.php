@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Title: Rabobank - iDEAL Professional config factory test
+ * Title: ING - iDEAL Advanced - v3 - Config factory test
  * Description:
  * Copyright: Copyright (c) 2005 - 2015
  * Company: Pronamic
