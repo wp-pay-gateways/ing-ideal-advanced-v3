@@ -10,6 +10,6 @@
  */
 class Pronamic_WP_Pay_Gateways_ING_IDealAdvancedV3_ConfigFactory extends Pronamic_WP_Pay_Gateways_IDealAdvancedV3_ConfigFactory {
 	public function __construct() {
-		parent::__construct( 'Pronamic_WP_Pay_Gateways_ING_IDealAdvancedV3_Config', 'Pronamic_WP_Pay_Gateways_ING_IDealAdvancedV3_ConfigTest' );
+		parent::__construct( 'Pronamic_WP_Pay_Gateways_ING_IDealAdvancedV3_Config', 'Pronamic_WP_Pay_Gateways_ING_IDealAdvancedV3_TestConfig' );
 	}
 }
