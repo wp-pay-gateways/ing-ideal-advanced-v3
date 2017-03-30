@@ -16,7 +16,8 @@ class Pronamic_WP_Pay_Gateways_ING_IDealAdvancedV3_Config extends Pronamic_WP_Pa
 
 	public function get_certificates() {
 		return array(
-			dirname( __FILE__ ) . '/../certificates/ingbank.cer',
+			dirname( __FILE__ ) . '/../certificates/ingbank-2022.cer',
+			dirname( __FILE__ ) . '/../certificates/ingbank-2017.cer',
 		);
 	}
 }
