@@ -29,11 +29,6 @@ module.exports = function( grunt ) {
 
 		// PHPLint
 		phplint: {
-			options: {
-				phpArgs: {
-					'-lf': null
-				}
-			},
 			all: [ 'src/**/*.php' ]
 		},
 
@@ -52,8 +47,13 @@ module.exports = function( grunt ) {
 		
 		// PHPUnit
 		phpunit: {
-			application: {},
-		},
+			options: {
+				bin: 'vendor/bin/phpunit'
+			},
+			application: {
+				
+			}
+		}
 	} );
 
 	// Default task(s).
